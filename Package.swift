@@ -1,6 +1,5 @@
 // swift-tools-version:5.3
 import PackageDescription
-
 let package = Package(
   name: "VirtualStadiumDataSDK",
   platforms: [
@@ -10,6 +9,6 @@ let package = Package(
     .library(name: "VirtualStadiumDataSDK", targets: [ "VirtualStadiumDataSDK" ]),
   ],
   targets: [
-    .binaryTarget(name: "VirtualStadiumDataSDK", url: "https://artifacts.vs.sportradar.com/virtualstadium/datasdk/apple/libs/1.2.1074/VirtualStadiumDataSDK.xcframework.zip", checksum: "e85973ec03297fac9d3d4f821faf71e214e09a57bc9d1c074b51965e2d4b425a"),
+    .binaryTarget(name: "VirtualStadiumDataSDK", url: "https://artifacts.vs.sportradar.com/virtualstadium/datasdk/apple/libs/1.2.1114/VirtualStadiumDataSDK.xcframework.zip", checksum: "2be6de7426846565090011d3f260ed1aeceaf36efbb84226817d3a81f08f633b"),
   ]
 )
