@@ -9,6 +9,6 @@ let package = Package(
     .library(name: "VirtualStadiumDataSDK", targets: [ "VirtualStadiumDataSDK" ]),
   ],
   targets: [
-    .binaryTarget(name: "VirtualStadiumDataSDK", url: "https://artifacts.vs.sportradar.com/virtualstadium/datasdk/apple/libs/1.2.1114/VirtualStadiumDataSDK.xcframework.zip", checksum: "2be6de7426846565090011d3f260ed1aeceaf36efbb84226817d3a81f08f633b"),
+    .binaryTarget(name: "VirtualStadiumDataSDK", url: "https://artifacts.vs.sportradar.com/virtualstadium/datasdk/apple/libs/1.2.1128/VirtualStadiumDataSDK.xcframework.zip", checksum: "46b071049645f24ccac53fc504fa678cd2283eff7afe2bfaa8b6d5637b3b3f98"),
   ]
 )
